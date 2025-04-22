@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/kelvinou01/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 8932a3ee31a5887b799b1d52d4ae37d59f0e84956751ba53928540e6d78685f0
+  sha256: aba98b3448c727b868db3a6294c8f661994454f2b6b3d8e2057ae1ad22a0a9e0
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
