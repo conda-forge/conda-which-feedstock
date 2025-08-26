@@ -1,5 +1,5 @@
 {% set name = "conda-which" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/kelvinou01/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: aba98b3448c727b868db3a6294c8f661994454f2b6b3d8e2057ae1ad22a0a9e0
+  sha256: 4d5339af5f5fe04f41ee3f320610fb13fcc2e6d4359ff2ad939de60692ba6c59
 
 build:
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
   noarch: python
 
 requirements:
